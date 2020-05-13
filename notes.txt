@@ -1,0 +1,24 @@
+webpack to bundle the js files
+modern webpack supports 0 configuration. we dont need to write config file
+webpack dev server to run the scripts automatically
+webpack in develoopment mode do not optimize the files automaticaaly
+webpack in production mode optimize the files automaticaaly reduce to very small size
+webpack-dev-server --mode development --open
+it opens the dev server in develoopment mode and --open opens the page automaticaaly in browser
+plugins: receives an array of the plugins
+template in webpackconfig file pints the startitng file. it allows us to do complex processing of input files
+package babel-core contains the core functionalities of babel
+babel-preset-env which will take care all javascript features and convert to back to es5
+babel loader to load babel files
+loaders in webpack allow us to import or to load all kinds of different files. like converting sass to css or es6 to es5
+
+ test: /\.js$/,: tells that to test all the files that ends with .js
+ babel config file named babelrc
+ preset env is a collection of code transform which are like piece of code which actually apply the actual transformations to our code
+ things like classes,promises cant be converted from es6 to es5 so we use polyfills for that
+ rules for babel setup
+ 1) rules in webpackconfig file 
+ 2) which stuff to convert by babel in .babelrc file 
+ 3) polyfill
+
+ local storage api use setItem ,getItem, length and remove item properties
