@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --mode development --open"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/piyaarora/forkify",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
@@ -25,6 +27,7 @@
     "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
     "fractional": "^1.0.0",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.5.0",
     "uniqid": "^5.2.0"
   }
